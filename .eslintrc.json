@@ -15,7 +15,7 @@
     ],
     "rules": {
         "semi": "off",
-        "@typescript-eslint/semi": ["error"]
+        "@typescript-eslint/semi": ["off"]
     },
     "settings": {
         "import/resolver": {

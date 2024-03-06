@@ -27,7 +27,7 @@ const TaskList: React.FC = () => {
     setNewTask(e.target.value);
   };
 
-  const handleKeyPress = (event: any) => {
+  const handleKeyPress = (event: any): void => {
     if (event.key === "Enter") {
       handleAddTask();
     }
@@ -94,22 +94,22 @@ const TaskList: React.FC = () => {
         }`}
       >
         <div className="completedContainer">
-          {filter === "all" ? (
+          {filter === "all" ? 
             <p className="completedText completedTasks">
               All: {records.length}
             </p>
-          ) : filter === "completed" ? (
-            <p className="completedText completedTasks">
+            : filter === "completed" ? 
+              <p className="completedText completedTasks">
               Completed: {completedTasksCount}
-            </p>
-          ) : (
-            <p className="completedText uncompletedTasks">
+              </p>
+              : 
+              <p className="completedText uncompletedTasks">
               Uncompleted: {uncompletedTasksCount}
-            </p>
-          )}
+              </p>
+          }
         </div>
         <ul style={{ padding: 0 }}>
-          {filteredTasks.map((task: any) => (
+          {filteredTasks.map((task: any) => 
             <li
               className="task"
               key={task.id}
@@ -122,7 +122,7 @@ const TaskList: React.FC = () => {
               />
               {task.text}
             </li>
-          ))}
+          )}
         </ul>
       </div>
     </div>
