@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/apptestdeploy/static/css/main.8db2ddfb.css",
+    "main.js": "/apptestdeploy/static/js/main.68bab881.js",
+    "index.html": "/apptestdeploy/index.html",
+    "main.8db2ddfb.css.map": "/apptestdeploy/static/css/main.8db2ddfb.css.map",
+    "main.68bab881.js.map": "/apptestdeploy/static/js/main.68bab881.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8db2ddfb.css",
+    "static/js/main.68bab881.js"
+  ]
+}
